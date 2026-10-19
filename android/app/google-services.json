@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248286617932",
+    "project_id": "newsbeeper-f6f2f",
+    "storage_bucket": "newsbeeper-f6f2f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248286617932:android:70e90bde693fc97fa26fe9",
+        "android_client_info": {
+          "package_name": "com.coderux.newsbeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR310-Bq43b01CD1abfLEvuKRNObS3o0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

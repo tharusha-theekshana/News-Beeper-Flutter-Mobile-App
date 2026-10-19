@@ -1,6 +1,8 @@
 import 'package:go_router/go_router.dart';
-import 'package:news_beeper/core/router/app_route_names.dart';
-import 'package:news_beeper/views/splash/splash_view.dart';
+
+import '../../views/splash/splash_view.dart';
+import 'app_route_names.dart';
+
 
 class AppRouter {
   late final GoRouter routers = GoRouter(

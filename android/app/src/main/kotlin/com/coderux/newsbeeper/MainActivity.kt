@@ -1,4 +1,4 @@
-package com.example.news_beeper
+package com.coderux.newsbeeper
 
 import io.flutter.embedding.android.FlutterActivity
 
