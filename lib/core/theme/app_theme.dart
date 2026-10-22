@@ -11,6 +11,12 @@ class AppTheme {
   static const Color borderColor = Color(0xFFDDD6FE);
   static const Color errorColor = Color(0xFFDA0606);
 
+  // For snack bar
+  static const Color successColor = Color(0xFF2E9E5B);
+  static const Color warningColor = Color(0xFFF2A100);
+  static const Color infoColor = Color(0xFF3B82F6);
+  static const Color snackBarBackgroundColor = Color(0xFF2D3436);
+
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
     scaffoldBackgroundColor: backgroundColor,
@@ -25,38 +31,48 @@ class AppTheme {
     ),
     textTheme: GoogleFonts.quicksandTextTheme().copyWith(
       headlineLarge: GoogleFonts.quicksand(
-        fontSize: 32,
+        fontSize: 28,
         fontWeight: FontWeight.w700,
         color: textPrimaryColor,
       ),
       headlineMedium: GoogleFonts.poppins(
-        fontSize: 24,
+        fontSize: 25,
         fontWeight: FontWeight.w600,
         color: textPrimaryColor,
       ),
       headlineSmall: GoogleFonts.quicksand(
-        fontSize: 20,
+        fontSize: 22,
         fontWeight: FontWeight.w600,
         color: textPrimaryColor,
       ),
-      bodyLarge: GoogleFonts.quicksand(
+      displayLarge: GoogleFonts.quicksand(
+        fontSize: 20,
+        fontWeight: FontWeight.normal,
+        color: textPrimaryColor,
+      ),
+      displayMedium: GoogleFonts.quicksand(
+        fontSize: 18,
+        fontWeight: FontWeight.normal,
+        color: textPrimaryColor,
+      ),
+      displaySmall: GoogleFonts.quicksand(
         fontSize: 16,
         fontWeight: FontWeight.normal,
         color: textPrimaryColor,
       ),
-      bodyMedium: GoogleFonts.quicksand(
+      bodyLarge: GoogleFonts.quicksand(
         fontSize: 14,
+        fontWeight: FontWeight.normal,
+        color: textPrimaryColor,
+      ),
+      bodyMedium: GoogleFonts.quicksand(
+        fontSize: 12,
         color: textPrimaryColor,
       ),
       bodySmall: GoogleFonts.quicksand(
         fontSize: 10,
         fontWeight: FontWeight.normal,
         color: textSecondaryColor,
-      ),
-      displaySmall: GoogleFonts.quicksand(
-        fontSize: 12,
-        fontWeight: FontWeight.normal,
-        color: textPrimaryColor,
       ),
     ),
     appBarTheme: AppBarTheme(

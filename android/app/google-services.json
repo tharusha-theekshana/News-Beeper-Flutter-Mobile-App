@@ -12,7 +12,20 @@
           "package_name": "com.coderux.newsbeeper"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "248286617932-7mgkj7sch8ouvv8ngj1u0krn3s8570pd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coderux.newsbeeper",
+            "certificate_hash": "346756ec3464b1f649cd8ca9f6c3c830269e80e7"
+          }
+        },
+        {
+          "client_id": "248286617932-htpccc2e3n9su5a4gkgfo0dbvdo1h9i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCR310-Bq43b01CD1abfLEvuKRNObS3o0I"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248286617932-htpccc2e3n9su5a4gkgfo0dbvdo1h9i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
